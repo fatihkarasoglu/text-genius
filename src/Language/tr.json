@@ -1,0 +1,16 @@
+{
+    "title": "Metin Dâhisi",
+    "words": "Kelime",
+    "characters": "Karakter",
+    "sentences": "Cümle",
+    "paragraphs": "Paragraf",
+    "pronouns": "Zamir",
+    "longestWord": "En uzun kelime",
+    "numberOfWords": "Kelime sayısı: {{count}}",
+    "numberOfCharacters": "Karakter sayısı: {{count}}",
+    "numberOfSentences": "Cümle sayısı: {{count}}",
+    "numberOfParagraphs": "Paragraf sayısı: {{count}}",
+    "numberOfPronouns": "Zamir sayısı: {{count}}",
+    "longestWordIs": "En uzun kelime: {{word}}",
+    "placeholder": "Metninizi buraya yazabilir veya yapıştırabilirsiniz..."
+  }

@@ -1,0 +1,16 @@
+{
+    "title": "Text Genius",
+    "word": "Words",
+    "character": "Characters",
+    "sentence": "Sentences",
+    "paragraph": "Paragraphs",
+    "pronoun": "Pronouns",
+    "longestWord": "Longest word",
+    "numberOfWord": "Number of words: {{count}}",
+    "numberOfCharacter": "Number of characters: {{count}}",
+    "numberOfSentence": "Number of sentences: {{count}}",
+    "numberOfParagraph": "Number of paragraphs: {{count}}",
+    "numberOfPronoun": "Number of pronouns: {{count}}",
+    "longestWordIs": "The longest word is: {{word}}",
+    "placeholder": "You can type or paste your text here..."
+  }

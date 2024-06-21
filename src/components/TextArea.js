@@ -1,15 +1,19 @@
 import React from 'react';
-import { TextField, Paper } from '@mui/material';
+import { useTranslation } from 'react-i18next';
+import { Paper, TextField } from '@mui/material';
 
 const TextArea = ({ text, setText }) => {
+
+  const { t } = useTranslation();
+
   return (
-    <Paper style={{ padding: '16px', margin: '16px 0' }}>
+    <Paper>
       <TextField
         fullWidth
         multiline
         rows={10}
         variant="outlined"
-        placeholder="Paste your text here..."
+        placeholder={t('placeholder')}
         value={text}
         name='text'
         onChange={(e) => setText(e.target.value)}
