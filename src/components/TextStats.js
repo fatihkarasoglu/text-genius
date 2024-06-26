@@ -14,12 +14,14 @@ const TextStats = ({ text }) => {
   });
 
   useEffect(() => {
+
+    // I got help with the calculateStats variable calculations.
     const calculateStats = () => {
       const words = text.trim().split(/\s+/).length;
       const characters = text.length;
       const sentences = text.split(/[.!?]/).filter(Boolean).length;
       const paragraphs = text.split(/\n+/).filter(Boolean).length;
-      const pronouns = (text.match(/\b(I|me|my|mine|we|us|our|ours|you|your|yours|he|him|his|she|her|hers|it|its|they|them|their|theirs)\b/gi) || []).length;
+      const pronouns = (text.match(/\b(ben|sen|o|biz|siz|onlar|kendim|kendin|kendi|kendimiz|kendiniz|kendileri|bu|şu|kim|ne|biri|I|me|my|mine|we|us|our|ours|you|your|yours|he|him|his|she|her|hers|it|its|they|them|their|theirs)\b/gi) || []).length;
       const longestWord = text.split(/\s+/).reduce((longest, word) => word.length > longest.length ? word : longest, '');
 
       setStats({
@@ -50,22 +52,22 @@ const TextStats = ({ text }) => {
       <Paper style={{ padding: '16px', margin: '16px 0', textAlign: 'center', justifyContent: 'center' }}>
         <Grid container spacing={1}>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('words')}: {stats.words}</Typography>
+            <Typography variant="h6">{t('Words')}: {stats.words}</Typography>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('characters')}: {stats.characters}</Typography>
+            <Typography variant="h6">{t('Characters')}: {stats.characters}</Typography>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('sentences')}: {stats.sentences}</Typography>
+            <Typography variant="h6">{t('Sentences')}: {stats.sentences}</Typography>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('paragraphs')}: {stats.paragraphs}</Typography>
+            <Typography variant="h6">{t('Paragraphs')}: {stats.paragraphs}</Typography>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('pronouns')}: {stats.pronouns}</Typography>
+            <Typography variant="h6">{t('Pronouns')}: {stats.pronouns}</Typography>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('longestWord')}: {stats.longestWord}</Typography>
+            <Typography variant="h6">{t('LongestWord')}: {stats.longestWord}</Typography>
           </Grid>
         </Grid>
       </Paper>
