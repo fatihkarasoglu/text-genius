@@ -1,5 +1,5 @@
 {
-    "title": "Text Genius",
+    "Title": "Text Genius",
     "word": "Words",
     "character": "Characters",
     "sentence": "Sentences",
@@ -12,5 +12,7 @@
     "numberOfParagraph": "Number of paragraphs: {{count}}",
     "numberOfPronoun": "Number of pronouns: {{count}}",
     "longestWordIs": "The longest word is: {{word}}",
-    "placeholder": "You can type or paste your text here..."
+    "placeholder": "You can type or paste your text here...",
+    "lanTR": "Turkish",
+    "lanEn": "English"
   }

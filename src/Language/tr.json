@@ -12,5 +12,7 @@
     "numberOfParagraphs": "Paragraf sayısı: {{count}}",
     "numberOfPronouns": "Zamir sayısı: {{count}}",
     "longestWordIs": "En uzun kelime: {{word}}",
-    "placeholder": "Metninizi buraya yazabilir veya yapıştırabilirsiniz..."
+    "placeholder": "Metninizi buraya yazabilir veya yapıştırabilirsiniz...",
+    "lanTR": "Türkçe",
+    "lanEn": "İngilizce"
   }

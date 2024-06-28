@@ -1,13 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Paper, TextField } from '@mui/material';
+import '../App.css';
 
 const TextArea = ({ text, setText }) => {
 
   const { t } = useTranslation();
 
   return (
-    <Paper>
+    <Paper className="text-area">
       <TextField
         fullWidth
         multiline

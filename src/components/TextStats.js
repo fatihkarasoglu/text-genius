@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Paper, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import "./main.css";
+import "../App.css";
 
 const TextStats = ({ text }) => {
   const [stats, setStats] = useState({
@@ -46,10 +47,10 @@ const TextStats = ({ text }) => {
   return (
     <div>
       <div style={{ textAlign: 'center', marginBottom: '16px' }}>
-        <button onClick={() => changeLanguage('en')} className="langBtn">English</button>
-        <button onClick={() => changeLanguage('tr')} className="langBtn">Türkçe</button>
+        <button onClick={() => changeLanguage('en')} className="langBtn"> {t('lanEn')} </button>
+        <button onClick={() => changeLanguage('tr')} className="langBtn"> {t('lanTR')} </button>
       </div>
-      <Paper style={{ padding: '16px', margin: '16px 0', textAlign: 'center', justifyContent: 'center' }}>
+      <Paper style={{ padding: '16px', margin: '16px 0', textAlign: 'center', justifyContent: 'center' }} className="text-stats" >
         <Grid container spacing={1}>
           <Grid item xs={2}>
             <Typography variant="h6">{t('Words')}: {stats.words}</Typography>
