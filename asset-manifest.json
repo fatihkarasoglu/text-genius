@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/text-genius/static/css/main.76aac993.css",
+    "main.js": "/text-genius/static/js/main.ef1ac47f.js",
+    "static/js/453.f8e4b85b.chunk.js": "/text-genius/static/js/453.f8e4b85b.chunk.js",
+    "index.html": "/text-genius/index.html",
+    "main.76aac993.css.map": "/text-genius/static/css/main.76aac993.css.map",
+    "main.ef1ac47f.js.map": "/text-genius/static/js/main.ef1ac47f.js.map",
+    "453.f8e4b85b.chunk.js.map": "/text-genius/static/js/453.f8e4b85b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76aac993.css",
+    "static/js/main.ef1ac47f.js"
+  ]
+}
