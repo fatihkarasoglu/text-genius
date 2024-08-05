@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/text-genius/static/css/main.76aac993.css",
-    "main.js": "/text-genius/static/js/main.ef1ac47f.js",
+    "main.css": "/text-genius/static/css/main.804479fe.css",
+    "main.js": "/text-genius/static/js/main.65c1e08f.js",
     "static/js/453.f8e4b85b.chunk.js": "/text-genius/static/js/453.f8e4b85b.chunk.js",
+    "static/media/poppins-latin-400-normal.woff": "/text-genius/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/text-genius/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/text-genius/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/text-genius/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
     "index.html": "/text-genius/index.html",
-    "main.76aac993.css.map": "/text-genius/static/css/main.76aac993.css.map",
-    "main.ef1ac47f.js.map": "/text-genius/static/js/main.ef1ac47f.js.map",
+    "main.804479fe.css.map": "/text-genius/static/css/main.804479fe.css.map",
+    "main.65c1e08f.js.map": "/text-genius/static/js/main.65c1e08f.js.map",
     "453.f8e4b85b.chunk.js.map": "/text-genius/static/js/453.f8e4b85b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76aac993.css",
-    "static/js/main.ef1ac47f.js"
+    "static/css/main.804479fe.css",
+    "static/js/main.65c1e08f.js"
   ]
 }
