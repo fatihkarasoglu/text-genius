@@ -14,5 +14,6 @@
     "longestWordIs": "The longest word is: {{word}}",
     "placeholder": "You can type or paste your text here...",
     "lanTR": "Turkish",
-    "lanEn": "English"
+    "lanEn": "English",
+    "footer": "Created by FATİH KARAŞOĞLU"
   }

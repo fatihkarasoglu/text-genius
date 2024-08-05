@@ -68,7 +68,7 @@ const TextStats = ({ text }) => {
             <Typography variant="h6">{t('Pronouns')}: {stats.pronouns}</Typography>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="h6">{t('LongestWord')}: {stats.longestWord}</Typography>
+            <Typography variant="h6">{t('Longest Word')}: {stats.longestWord}</Typography>
           </Grid>
         </Grid>
       </Paper>

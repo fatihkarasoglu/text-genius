@@ -1,15 +1,23 @@
-body {
+html body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f4f4f9;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
   padding: 16px;
   max-width: 1200px;
   margin: auto;
+  flex: 1;
 }
 
 .text-area {
@@ -45,6 +53,17 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   justify-content: center;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 16px;
+  text-align: center;
+  margin-top: 32px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
